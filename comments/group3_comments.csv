@@ -1,171 +1,171 @@
-﻿"recid","issueID","user","createtime","updatetime","text","identifier"
-"1","1","GroupH2/user3","1486585437","1486585437","@DevArenaCN  I am not able to push the project. It says permission denied. Could you give me access rights.","278450517"
-"2","1","GroupH2/user1","1486585646","1486585646","I have give you permission. Check your invitation. ","278451366"
-"3","1","GroupH2/user3","1486586053","1486586053","Got it, thanks! :)    I have pushed a basic hello world app. It should give us a working code base to build our application.  ","278453132"
-"9","2","GroupH2/user1","1486610657","1486610657","@thegreyd Sid, I'm working on the server side, you're more than welcome to contribute when you're done with your task, thanks!","278536557"
-"63","2","GroupH2/user1","1487299053","1487299053","Done!","280532623"
-"66","3","GroupH2/user2","1487306515","1487306515","Done.","280550476"
-"116","4","GroupH2/user1","1487685341","1487685341","These issues are too broad. Closing these and change to smaller more detailed issues","281350510"
-"122","5","GroupH2/user3","1487714076","1487714076","Fixed the 'network on main thread' exception.  Now making the magic-link API call in a background thread.","281493952"
-"123","5","GroupH2/user1","1487859981","1487859981","UI has been modified for magic link email.","282004716"
-"114","5","GroupH2/user3","1487646809","1487646809","Integrated the magic link authentication. Getting errors executing the post call though 😕   Will look into it tomorrow.","281233763"
-"112","5","GroupH2/user3","1487622997","1487622997","Okay. I'll make the changes. 👍 ","281175979"
-"111","5","GroupH2/user1","1487616313","1487616313","@KaustubhG I've made some changes to the link above. That's the actual one we're using now","281154514"
-"57","5","GroupH2/user3","1487279154","1487616286","@DevArenaCN  @thegreyd   http://zapserver.herokuapp.com/magiclinks/auth_token=<auth_token>","280460300"
-"76","6","GroupH2/user2","1487358610","1487358610","Next step is to find android library and code to record audio and convert it into wav format specified above. Android doesn't natively suppory wav. I tried using this library: https://github.com/adrielcafe/AndroidAudioRecorder. But keep getting errors.","280739238"
-"82","6","GroupH2/user2","1487378068","1487378068","Lots of voice recognition functionality implemented today! Good job @KaustubhG :smile:","280804109"
-"74","6","GroupH2/user2","1487358437","1487358437","- apis  	- get all verification phrases  	- create profile  	- create enrollment  	- delete profile  	- get all profiles  	- get profile  	- reset enrollments  	- verification    - Procedure:  	- create verification profile id - using subscription id  		- using that profile id create enrollment - 3 api calls with 3 voice samples  	- call the verification api - using profile id and voice sample","280738519"
-"73","6","GroupH2/user2","1487358105","1487358105","Microsoft Voice api : https://westus.dev.cognitive.microsoft.com/docs/services/563309b6778daf02acc0a508/operations/56406930e597ed20c8d8549c","280737111"
-"117","6","GroupH2/user1","1487685397","1487685397","Is there any issues regarding the voice recognition right now?","281350726"
-"79","6","GroupH2/user3","1487364298","1487364298","Voice Recorder Works! :dancing_men: ","280761541"
-"120","6","GroupH2/user2","1487690434","1487690434","Done. We can open specific issues to deal with them. ","281374349"
-"94","6","GroupH2/user2","1487453850","1487453850","Core functionality is done now. Todo: Add proper instructions for enrollment. ","280876902"
-"77","6","GroupH2/user2","1487358801","1487358801","A better approach would be to first test the api (with some python code), and see if it works here (since its mentioned availability is only west-US), and then code up the application. ","280740035"
-"75","6","GroupH2/user2","1487358512","1487358512","The audio file format must meet the following requirements.  Container 	WAV  Encoding 	PCM  Rate 	16K  Sample Format 	16 bit  Channels 	Mono","280738801"
-"78","6","GroupH2/user2","1487364036","1487364036","API works. Tested with Python scripts [here](https://github.com/Microsoft/Cognitive-SpeakerRecognition-Python). ","280760555"
-"12","7","GroupH2/user3","1486656922","1486656922","Basic UI is in place.","278690016"
-"59","8","GroupH2/user1","1487284944","1487284944","Done","280486982"
-"37","12","GroupH2/user3","1486674400","1486674400","Everyone's got their own branch now! :)","278773703"
-"4","14","GroupH2/user3","1486604871","1486604871","will do that tonight most probably.","278522024"
-"7","14","GroupH2/user1","1486607008","1486607008","![untitled diagram](https://cloud.githubusercontent.com/assets/4381690/22766657/c79ed422-ee44-11e6-920e-ff6dee594886.png)    Here's a basic program flow for the Android app. Let me know what you guys think","278527903"
-"6","14","GroupH2/user3","1486605222","1486605222","sure","278523100"
-"5","14","GroupH2/user1","1486605110","1486605110","Yeah we need to figure this out before we move forward. I'm drafting one right now and will keep you guys posted here","278522782"
-"11","15","GroupH2/user3","1486656905","1486656905","Done.","278689918"
-"13","16","GroupH2/user1","1486657019","1486657019","Have you done a pull request to merge your code to the master branch?","278690548"
-"19","16","GroupH2/user2","1486658026","1486658026","The gradle system messes things up pretty quickly. Even if I open the project to view in master or other branch it modifies some files :sweat_smile: Have to be careful. ","278695762"
-"14","16","GroupH2/user3","1486657265","1486657265","Yeah.  I have mentioned you and sid in the comment for the pull request.","278691772"
-"20","16","GroupH2/user2","1486658278","1486658278","So if I want to modify KG's codem, I would create my branch, and then merge his branch with mine, and then proceed to commit changes there, right?","278697045"
-"21","16","GroupH2/user2","1486658872","1486658872","@DevArenaCN How do I work on KG's code in my branch?","278700203"
-"17","16","GroupH2/user1","1486657684","1486657684","@thegreyd Yes you need to switch to his branch to check the code","278693944"
-"18","16","GroupH2/user2","1486657702","1486657702","cool.","278694036"
-"22","16","GroupH2/user1","1486659128","1486659128","If things works fine, I'll confirm the pull request, which will makes KG's code to the master branch. Then on your local machine, what you need to do is either switch to master branch, run a  `git pull` command, then switch back to your branch, and do a `git merge master` command; Or you can do just on your own branch (locally), run a `git merge origin master` command, it will just merge the latest code from the master branch with your branch (locally). After that what I normally do is checking all the functionalities, if all goes well, commit all the files and push it to my branch on github","278701516"
-"23","16","GroupH2/user2","1486659589","1486659589","Or if I switch to KG's branch and then create a new branch, that would have the base of KG's code ? And then modify it. Basically I can have 2 branches, 1 of KG's code and one with master. Would that work?","278703873"
-"10","16","GroupH2/user3","1486656885","1486656885","done.","278689812"
-"16","16","GroupH2/user2","1486657643","1486657643","I only see one activity which is activiy_hello_world.xml. Do i have to switch to Kaustubh branch?  ","278693711"
-"24","16","GroupH2/user1","1486659694","1486659694","Now if you do a `git pull` from the master branch, you should have the latest code","278704380"
-"25","16","GroupH2/user1","1486660762","1486660762","@thegreyd The best way would be switch to master branch, do `git pull`, and then switch back to your branch and do `git merge master`","278709753"
-"15","16","GroupH2/user1","1486657358","1486657358","Saw it. Looks good, great work. I would say merge the code first then close the issue next time.","278692231"
-"8","16","GroupH2/user1","1486607913","1486607913","Repeat...close this issue","278530181"
-"40","17","GroupH2/user2","1487096252","1487096252","There is a working prototype now of local fingerprint authentication. I'll push and create a pull request soon.","279789769"
-"109","17","GroupH2/user1","1487612537","1487612537","Is this finished? @thegreyd Let me know if I can close this issue","281141336"
-"41","17","GroupH2/user2","1487096290","1487096290","Guide used was this. Posting here for reference.  http://www.androidauthority.com/how-to-add-fingerprint-authentication-to-your-android-app-747304/","279789947"
-"38","18","GroupH2/user1","1486950695","1486950695","Done with the server side.","279276182"
-"26","18","GroupH2/user2","1486663616","1486663616","@DevArenaCN So I am not entirely sure how this would be implemented. In what form will the data from the Android app be sent to the server? Will it be an api call? Will the server return some token? I","278723548"
-"27","18","GroupH2/user2","1486663736","1486663736","This is something I was reading. Authentication using http request: https://stackoverflow.com/questions/1968416/how-to-do-http-authentication-in-android","278724131"
-"34","18","GroupH2/user1","1486666290","1486666290","It will be something like this: http://lucatironi.net/tutorial/2012/10/15/ruby_rails_android_app_authentication_devise_tutorial_part_one/","278736227"
-"48","18","GroupH2/user2","1487146880","1487146880","Registration now works in the Android app. Some refinements needed, will open relevant issues.","279945843"
-"28","18","GroupH2/user1","1486663780","1486663780","Yes. It will be some kind of form that you post to the server ( which I will give you the documentation once I'm finished) , you will get a JSON back so that you can parse and do things accordingly in the app. ","278724325"
-"31","21","GroupH2/user3","1486665405","1486665639","I have created a new project for the whole org. It resolves the cross-communication issue :)","278732043"
-"30","21","GroupH2/user3","1486665238","1486665238","I havent checked it out yet but the studio could mess things up while running and building the apk for the app.    Plus for the common issues stuff: we can create a project for the SETeamH organisation as a whole which will give access to all the issues across all repos contained in an org.","278731230"
-"29","21","GroupH2/user1","1486665112","1486665112","My thought would be putting them in different ones would create issues with the GutHub issue section where we need to cross communication with different repos. Is there some kind of issue with your project? I ","278730563"
-"32","21","GroupH2/user1","1486665830","1486665830","Alright. I'm moving the files before class. ","278734160"
-"35","21","GroupH2/user2","1486667987","1486667987","We have our server hosted in our ideas repo. We could continue to use that maybe?","278743926"
-"36","21","GroupH2/user1","1486672829","1486672829","It has been moved to the new repo. Closing this issue","278766695"
-"33","21","GroupH2/user3","1486665875","1486665875","Sure. Thanks! :)  ","278734346"
-"81","23","GroupH2/user1","1487373721","1487373721","Noted. Great work @KaustubhG @thegreyd ","280793846"
-"80","23","GroupH2/user3","1487373670","1487373891","Me and sid were working together this afternoon on the voice-dna stuff.  Voice Recording is now working inside the app.   Sid is working on making API requests for voice-dna enrollment and verification.    We have decided the app flow for Voice as follows:    HomePage ---> Login ----> Login via Voice-DNA    ```  if(user isn't registered by voice){   show the user enrollment screen (the screen where we record 3 voice samples and enroll the user)  }    else{   show the user verification screen. (the screen where we only record 1 voice sample for verification)  }  ```","280793697"
-"106","23","GroupH2/user3","1487610777","1487610777","Done.","281134810"
-"60","23","GroupH2/user1","1487284979","1487284979","Found another library that we could use. Cost a bit but hopefully we can use this.  https://siv.voiceprintportal.com/apidocs.jsp","280487125"
-"61","23","GroupH2/user1","1487285095","1487285095","https://github.com/voiceittech/VoiceIt-Android-Wrapper-BETA   Api for Android can be found here. ","280487628"
-"62","24","GroupH2/user1","1487298927","1487298927","Hey guys, the API calls for magic link and verify if user's auth_token is valid has been created and tested, documentations can be found in [here](https://github.com/SE17GroupH/ZapServer/blob/master/README.md) Let me know if you guys have any problems using these.","280532295"
-"53","24","GroupH2/user2","1487260763","1487260763","@DevArenaCN Is it a clickable link ? We'll need to open that link in the app right?","280371915"
-"52","24","GroupH2/user1","1487253607","1487253607","Quick update: email can be successfully sent out along with the auth_token, now is just how we pass that back to the app, and do the authorization call to the server.","280337279"
-"51","24","GroupH2/user3","1487253415","1487253415","Sure","280336469"
-"50","24","GroupH2/user1","1487209635","1487209635","@KaustubhG Great work! I'm almost finished with the emailing part, probably gonna finish the api calls before tomorrow's lecture. Can we still meet up 30 min before to have a quick meeting? I need some pointers on that url call. @thegreyd ","280203838"
-"49","24","GroupH2/user3","1487206573","1487206573","I have got the linking of a url to our app done.","280194131"
-"39","24","GroupH2/user3","1487085907","1487085907","Hey guys  still stuck on the API calls. :(  I guess I could change tracks and get the authentication thing done now that the server up...","279737967"
-"148","24","GroupH2/user2","1488998604","1488998604","Done","285129752"
-"42","24","GroupH2/user2","1487105231","1487105231","I am able to use the Zap server api to login, it returns a json file with auth token. Have a working version, some more work needed. ","279830801"
-"101","24","GroupH2/user1","1487535060","1487535060","Still it's gonna be an API call to the server, there no way around that, and honestly I don't think we should either. ","280944968"
-"121","24","GroupH2/user1","1487711825","1487711825","Link format for register confirmation: http://zapserver.herokuapp.com/users/confirmation?confirmation_token=vxgUvAm1SG5bQWyzQDfF","281483386"
-"113","24","GroupH2/user3","1487624022","1487624022","@thegreyd  could you mail me the SubKey.java file?","281178965"
-"98","24","GroupH2/user2","1487524494","1487524494","@DevArenaCN I'm thinking of removing some login and logout api calls to Zapserver, because they seem unnecessary. This way the communication to server will happen in one way, through the email password login. If that's successfully validated through the server then we store it in the app to locally authenticate. Won't be making login api calls to Zapserver on fingerprint and voice auth, because we require login through email-password first.","280933055"
-"99","24","GroupH2/user1","1487525008","1487525008","Yes I guess that would be fine for demo purposes, but in the real case it would need to talk with the server for authentication. One thing you could do is after login with username and password, store the auth-token, and just do the verification of the token instead for the other two login method. ","280933581"
-"100","24","GroupH2/user2","1487528403","1487528403","Yes I am storing the username password and auth token. How do you verify the auth token? ","280937225"
-"45","26","GroupH2/user2","1487136041","1487136041","If the response code is other than error, like 200, I could possibly get the json file. But we could decide what way would be the best.","279919736"
-"43","26","GroupH2/user1","1487109379","1487109379","`$ curl -k -v -H ""Content-Type:application/json"" -X POST -d '{""session"":{""password"":""12345677"",""email"":""example@zapserver.com""}}' https://zapserver.herokuapp.com/api/sessions/`  `Note: Unnecessary use of -X or --request, POST is already inferred.`  `*   Trying 184.73.212.255...`  `* TCP_NODELAY set`  `* Connected to zapserver.herokuapp.com (184.73.212.255) port 443 (#0)`  `* TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256`  `* Server certificate: *.herokuapp.com`  `* Server certificate: DigiCert SHA2 High Assurance Server CA`  `* Server certificate: DigiCert High Assurance EV Root CA`  `> POST /api/sessions/ HTTP/1.1`  `> Host: zapserver.herokuapp.com`  `> User-Agent: curl/7.51.0`  `> Accept: */*`  `> Content-Type:application/json`  `> Content-Length: 67`  `> `  `* upload completely sent off: 67 out of 67 bytes`  `< HTTP/1.1 422 Unprocessable Entity`  `< Server: Cowboy`  `< Date: Tue, 14 Feb 2017 21:52:13 GMT`  `< Connection: keep-alive`  `< X-Frame-Options: SAMEORIGIN`  `< X-Xss-Protection: 1; mode=block`  `< X-Content-Type-Options: nosniff`  `< Content-Type: application/json; charset=utf-8`  `< Cache-Control: no-cache`  `< X-Request-Id: ec10c234-6305-4daa-aef6-d87ac70ad64a`  `< X-Runtime: 0.807859`  `< Transfer-Encoding: chunked`  `< Via: 1.1 vegur`  `< `  `* Curl_http_done: called premature == 0`  `* Connection #0 to host zapserver.herokuapp.com left intact`  `{""errors"":""Invalid email or password""}`      I did a cURL and this is the JSON that should be returned (Last line)","279848750"
-"46","26","GroupH2/user2","1487137107","1487137107","Registration works now. But I don't get any json in return, only codes.  - Email already in use - 422  - invalid email/short password - 422  - Correct email and password - 201","279921809"
-"47","26","GroupH2/user2","1487146733","1487146733","The standard library functions for this are buggy/unreliable. Found a really nice library OkHttp, switching to that for API calls. Much cleaner interface and getting the correct json response now. Issue resolved.","279945411"
-"44","26","GroupH2/user2","1487135883","1487136787","On wrong credentials I am getting a HTTP error code, which when the urlconnection object in the app receives it kinda shuts off on its own, and doesn't show any returned message. This is fine, based on the return code we could segregate.     These are the codes that are received  - On correct username, wrong password: 422  - On wrong username: 500  - On correct username and password: 200","279919447"
-"69","27","GroupH2/user1","1487341737","1487341737","@thegreyd I have clear the whole database so you have to re-sign up for testing. Sorry about the inconvenience.","280664146"
-"70","27","GroupH2/user2","1487341988","1487341988","@DevArenaCN Not a problem. The only thing left on the server side I can think of, is resetting password. Do you think we should do it, or leave it for later.","280665288"
-"71","27","GroupH2/user1","1487342127","1487342127","Resetting the password I believe has already in the server side, but I haven't release the API for it. We can finish the major parts and then work on those small details.","280665900"
-"72","27","GroupH2/user2","1487342252","1487342252","Oh that's great.","280666498"
-"54","27","GroupH2/user2","1487261529","1487261539","I tested a few things:  - When you register you get an auth token, so we can login directly.  - If we don't we can redirect to login page. User can login immediately after registration","280376086"
-"58","27","GroupH2/user2","1487281449","1487341204","After discussion this is what we're doing:    - [x] No choosing of authentication mode. By default user can use fingerprint, magic link, voice/face/  - [x] In magic link, first verify the email address  - [ ] In fingerprint, first store the username and password. Then afterwards, when the username+fingerprint is authenticated, send the stored password  - [x] Do some validation on password, at least 6 chars. Username contains ""@"".  - [x] After registration redirect to login page.","280470952"
-"107","27","GroupH2/user1","1487612388","1487612388","I think the program flow is done. Closing this issue","281140831"
-"68","27","GroupH2/user1","1487341222","1487341222","email confirmation has been implemented. ","280661896"
-"65","28","GroupH2/user2","1487305436","1487305436","Saving username and password as well. Done. ","280547918"
-"64","29","GroupH2/user2","1487305207","1487305207","Done.","280547408"
-"55","30","GroupH2/user2","1487268445","1487268445","Done.","280410414"
-"56","31","GroupH2/user2","1487274289","1487274289","Done.","280437529"
-"97","33","GroupH2/user2","1487524066","1487524066","Not necessary right now. ","280932564"
-"85","34","GroupH2/user2","1487446176","1487446176","Once a user has logged in with password he will have his email registered so no need of taking the email. ","280869034"
-"67","35","GroupH2/user1","1487341191","1487341191","Done!","280661760"
-"110","36","GroupH2/user1","1487612902","1487612902","Fixed. Closing this issue now","281142631"
-"103","36","GroupH2/user2","1487575310","1487575310","Functionality implemented, but encountering error. See https://github.com/SE17GroupH/ZapServer/issues/14","281005349"
-"102","37","GroupH2/user2","1487575233","1487575233","Disable the buttons when pressing them doesn't lead to anything. Currently in the app a error toast notification is displayed which is not ideal.","281005144"
-"143","37","GroupH2/user3","1488925477","1488925477","UI looks pretty decent now! 😄 ","284880126"
-"126","37","GroupH2/user2","1487915713","1487915713","- https://codelabs.developers.google.com/codelabs/material-design-style/index.html?index=..%2F..%2Findex#0","282211013"
-"151","44","GroupH2/user2","1489025952","1489025952","Done!","285234461"
-"150","44","GroupH2/user2","1489016113","1489016113","Desired behavior: - when back press at homepage, exit the app -  when you press back button at login screen, it should take you to homepage.","285205527"
-"84","45","GroupH2/user2","1487442718","1487442718","The enrollment api calls are now implemented and tested to be working. This is ideal case testing where i record the correct phrase with clear voice. Error checking and displaying that error is not implemented yet. I'm making some final changes to push this. Will discuss subsequent problems in relevant issues.","280865384"
-"83","45","GroupH2/user2","1487440623","1487440840","Good news @DevArenaCN @KaustubhG The verification api call is implemented and tested to be working. We are able to record audio and send using FileInputStream. I am getting expected results.","280862988"
-"92","46","GroupH2/user2","1487447622","1487447622","So what happens is -> user receives email confirmation. User clicks on email, then on the backend you would confirm the email, then make an api call to Microsoft, receive the profile id and store it with the respective user. Then when that user does login, you retrieve from the database, and return it with the login api call response (as an extra parameter). I receive the profile id and store it in the app.","280870440"
-"93","46","GroupH2/user2","1487447735","1487447735","This does sounds a little complicated :sweat_smile: and maybe unnecessary. But the point is to separate the new profile creation for voice api from the app so that we don't run out of profiles. ","280870542"
-"86","46","GroupH2/user1","1487446574","1487446574","It's fairly easy to do I guess, I can add another API call to it, once the user is registered with the voice on Microsoft side, you can do an API call to our server and update the voice id on the server side. Is that something that's gonna work? If so I'll start now, hopefully it will be done before tomorrow's meet up. ","280869404"
-"95","46","GroupH2/user1","1487456409","1487456409","Ah, gotcha, I'll see what I can do from the server side, can't make any promise though. Could you give me some details on how to make the API call with Microsoft side? Thanks!","280879492"
-"96","46","GroupH2/user2","1487457469","1487457469","Yeah. Here is the create profile implementation details: https://westus.dev.cognitive.microsoft.com/docs/services/563309b6778daf02acc0a508/operations/563309b7778daf06340c9652","280880531"
-"87","46","GroupH2/user2","1487446885","1487446885","When an email is registered, we can create the voice profile id automatically on the server, and then return it with the login call response(with auth token and all). The voice create profile api call is fairly simple. What do you think?","280869702"
-"108","46","GroupH2/user1","1487612455","1487612455","I'm moving this issue to the server side. Closing on this end","281141048"
-"88","46","GroupH2/user2","1487446989","1487446989","That way he wouldn't have an extra api call.","280869809"
-"89","46","GroupH2/user1","1487447096","1487447096","So the id is something we generate, not generated on Microsoft side? If so, there's already an id column in the database right now. I think we can just use that if that's the case. ","280869906"
-"90","46","GroupH2/user2","1487447180","1487447180","The id is generated at microsoft's side and returned as a response to an api call. ","280870005"
-"91","46","GroupH2/user1","1487447434","1487447434","Since it's generated on Microsoft side and it's gonna return to the app itself, I don't see how it's gonna passed to the server without the app sending a call to the server side. Maybe I'm getting this wrong, but could you go into more detail about this? Thanks! ","280870260"
-"124","47","GroupH2/user2","1487881287","1487881287","Done. ","282109372"
-"105","47","GroupH2/user3","1487610739","1487610739","Will look into this one","281134664"
-"119","48","GroupH2/user2","1487690343","1487690343","Not exactly. There's one phrase that is displayed on the voice register screen. We can display more.","281373887"
-"145","48","GroupH2/user3","1488927707","1488927707","minimal requirements are met.","284889192"
-"118","48","GroupH2/user1","1487688517","1487688517","I think this one is done right? @thegreyd ","281364901"
-"104","50","GroupH2/user3","1487610722","1487610722","I'll take up this one today  ","281134584"
-"170","50","GroupH2/user2","1492114509","1492114509","Future improvement","294009984"
-"115","50","GroupH2/user3","1487646995","1487646995","crash for denying permissions due to voice auth is fixed.","281234160"
-"161","50","GroupH2/user2","1489600119","1489600119","Still unresolved. ","286824507"
-"155","50","GroupH2/user1","1489426963","1489426963","Is there an update on this?","286185782"
-"142","59","GroupH2/user3","1488925415","1488925415","fixed.","284879833"
-"153","60","GroupH2/user2","1489032038","1489032038","fixed. The final solution would be to create and store the profile id on server per user.","285248314"
-"128","61","GroupH2/user2","1488646659","1488655495","So I was playing with gradle and JUnit. Thankfully lot of things are set up in Android Studio, to help test. JUnit and Espresso are included as dependencies. There are 2 types of tests - one which is not android specific - test, and one which requires android specific functions - androidTest.  - **test** , which are **unit tests** written with JUnit -  [go here in this folder](https://github.com/SE17GroupH/Zap/blob/master/app/src/test/java/teamh/zapapp/ExampleUnitTest.java).  - **androidTest**, which are **instrumentation tests** written with Espresso or other - [go here](https://github.com/SE17GroupH/Zap/tree/master/app/src/androidTest/java/teamh/zapapp)    References:  - https://developer.android.com/studio/test/index.html","284164570"
-"141","61","GroupH2/user2","1488826312","1488924433","- UI testing with Espresso: https://www.youtube.com/watch?v=W8LJjfkTKik&list=PLWz5rJ2EKKc-6HWg_jyP0U1zrVLHn65b2  - code snippet used: https://qathread.blogspot.com/2014/09/discovering-espresso-for-android-how-to.html  - okhttp mockwebserver: https://github.com/square/okhttp/tree/master/mockwebserver  - espresso testing: https://developer.android.com/training/testing/ui-testing/espresso-testing.html","284493413"
-"144","61","GroupH2/user3","1488925581","1488925581","Me and @thegreyd  wrote some tests today.  We wrote unit-tests for checking correctness of functions  and end-to-end tests for checking end-to-end system functionality. ","284880582"
-"146","61","GroupH2/user1","1488936909","1488936909","Great work guys! I'm seeing a lot of commits today. For server side there're test cases in place already so I think all I need to do is setting up TravisCI for it. I'll start on Thursday.","284918247"
-"125","61","GroupH2/user2","1487914302","1487915873","Testing methods and frameworks:  - JUnit  - Robolectric (unit and intergration tests)  - Espresso (functional tests)  - Mockito  - https://codelabs.developers.google.com/codelabs/android-testing/index.html?index=..%2F..%2Findex#0  ","282208239"
-"149","61","GroupH2/user2","1488998821","1488998821","Started. For remaining open specific issues.","285130726"
-"127","62","GroupH2/user2","1488380538","1488380538","done","283363870"
-"139","65","GroupH2/user2","1488733540","1488733540","So our first build is passing. Took a long time to get it right. Basically had to disable instrumentation tests on travis (requires installing and running android device manager, which is a pain). Next to do is to securely get api keys to the build which are now stored in SubKey.java. In future the api keys will be stored in environment variables, and passed encrypted to travis.","284243699"
-"136","65","GroupH2/user1","1488657424","1488657424","Ah, gotcha. I'll do that, almost home, don't have access to a laptop and can't seem to be done on my phone. ","284176713"
-"134","65","GroupH2/user2","1488657348","1488657348","@DevArenaCN I think in collaborators there are 2 kinds of access - write and admin. I have write access but for this I require admin access.","284176639"
-"137","65","GroupH2/user3","1488657513","1488657513","I'll get started on travis CI by tonight 😄 ","284176800"
-"131","65","GroupH2/user2","1488657106","1488657106","@DevArenaCN I require admin rights for the organization or this repo, to enable the integration. Can you grant me that","284176389"
-"138","65","GroupH2/user1","1488677166","1488677166","Done. Sorry about the delay","284197831"
-"130","65","GroupH2/user1","1488656769","1488656769","I have authorized it a few mins ago. I'm gonna try to do that for the server side as well. ","284176054"
-"129","65","GroupH2/user2","1488656685","1488656685","@DevArenaCN @KaustubhG You would have received a mail to grant authorization to travisCI for the organization repo. That's needed to integrate with travis. ","284175987"
-"135","65","GroupH2/user2","1488657385","1488657385","@KaustubhG Hmm maybe only the person with admin rights to the org repo gets it.","284176681"
-"133","65","GroupH2/user3","1488657287","1488657287","@thegreyd  I didn't receive a mail for granting authorization to travis CI...  ","284176569"
-"132","65","GroupH2/user1","1488657157","1488657157","I thought I already did. I'll double check in a few mins. ","284176445"
-"140","69","GroupH2/user2","1488745114","1488745114","Donezo","284259094"
-"147","71","GroupH2/user2","1488940662","1488940662","Automatic release deployment is tested and working. The process of release-> tag commit in local branch. pull request to master. travis detects tag and deploys from master branch.","284928750"
-"169","79","GroupH2/user2","1492114490","1492114490","Future improvement ","294009913"
-"157","79","GroupH2/user1","1489427036","1489427036","I'm going to get the icon and logo ready before Thursday, after the midterm","286186178"
-"152","82","GroupH2/user2","1489029573","1489029610","At login screen button disabling is a bad idea. Other places buttons removed, merged into one.","285243198"
-"158","84","GroupH2/user1","1489427053","1489427053","I believe this one is done, right?","286186283"
-"159","84","GroupH2/user2","1489600023","1489600023","The structure is there, but Not fully implemented.","286823928"
-"168","84","GroupH2/user2","1492114472","1492114472","Future improvement","294009850"
-"160","85","GroupH2/user2","1489600091","1489600091","Not done. Looking into it. ","286824346"
-"156","85","GroupH2/user1","1489426977","1489426977","Any updates?","286185857"
-"166","85","GroupH2/user2","1492114420","1492114420","Future improvement","294009649"
-"154","86","GroupH2/user2","1489381063","1489381063","Looks good","286015653"
-"165","87","GroupH2/user3","1490132003","1490132003","Sure, w'll work on that","288225941"
-"164","87","GroupH2/user1","1490131190","1490131190","@thegreyd I'll add the Microsoft cognitiveId in the registration form and I'll write another API for getting that info, that will be done before Thursday. In the meantime, if @thegreyd and @KaustubhG could look into implementing some timing module inside the app for user registration and user login process that would be awesome. ","288222340"
-"167","87","GroupH2/user2","1492114453","1492114453","Done","294009784"
-"162","87","GroupH2/user2","1490123856","1490123883","Yes, Let's put a signup sheet for that. When are you guys free next week. We should discuss the work needed for user eval, server and app.     For the app i think, we need to prepare instructions to tell the user what to do. App icon and logo would be good.    For the server side, integrating microsoft api call for profile creation at account creation. This will make the voice login process very convenient for the end user.     Apart from these I don't think we need more. We could implement timing in the app, that would depend on how easy it is, and what kind of statistics we record.","288189066"
-"163","87","GroupH2/user3","1490127370","1490127370","We can start discussing over the weekend via comments and meetup next week maybe Tuesday.  How about that?","288204584"
+recid	issueID	user	createtime	updatetime	text	identifier
+1	1	user3	1486585437	1486585437	@DevArenaCN  I am not able to push the project. It says permission denied. Could you give me access rights.	278450517
+2	1	user1	1486585646	1486585646	I have give you permission. Check your invitation. 	278451366
+3	1	user3	1486586053	1486586053	"Got it, thanks! :)    I have pushed a basic hello world app. It should give us a working code base to build our application.  "	278453132
+9	2	user1	1486610657	1486610657	"@thegreyd Sid, I'm working on the server side, you're more than welcome to contribute when you're done with your task, thanks!"	278536557
+63	2	user1	1487299053	1487299053	Done!	280532623
+66	3	user2	1487306515	1487306515	Done.	280550476
+116	4	user1	1487685341	1487685341	These issues are too broad. Closing these and change to smaller more detailed issues	281350510
+122	5	user3	1487714076	1487714076	Fixed the 'network on main thread' exception.  Now making the magic-link API call in a background thread.	281493952
+123	5	user1	1487859981	1487859981	UI has been modified for magic link email.	282004716
+114	5	user3	1487646809	1487646809	Integrated the magic link authentication. Getting errors executing the post call though ??   Will look into it tomorrow.	281233763
+112	5	user3	1487622997	1487622997	Okay. I'll make the changes. ?? 	281175979
+111	5	user1	1487616313	1487616313	@KaustubhG I've made some changes to the link above. That's the actual one we're using now	281154514
+57	5	user3	1487279154	1487616286	@DevArenaCN  @thegreyd   http://zapserver.herokuapp.com/magiclinks/auth_token=<auth_token>	280460300
+76	6	user2	1487358610	1487358610	Next step is to find android library and code to record audio and convert it into wav format specified above. Android doesn't natively suppory wav. I tried using this library: https://github.com/adrielcafe/AndroidAudioRecorder. But keep getting errors.	280739238
+82	6	user2	1487378068	1487378068	Lots of voice recognition functionality implemented today! Good job @KaustubhG :smile:	280804109
+74	6	user2	1487358437	1487358437	"- apis  	- get all verification phrases  	- create profile  	- create enrollment  	- delete profile  	- get all profiles  	- get profile  	- reset enrollments  	- verification    - Procedure:  	- create verification profile id - using subscription id  		-"	280738519
+73	6	user2	1487358105	1487358105	Microsoft Voice api : https://westus.dev.cognitive.microsoft.com/docs/services/563309b6778daf02acc0a508/operations/56406930e597ed20c8d8549c	280737111
+117	6	user1	1487685397	1487685397	Is there any issues regarding the voice recognition right now?	281350726
+79	6	user3	1487364298	1487364298	Voice Recorder Works! :dancing_men: 	280761541
+120	6	user2	1487690434	1487690434	Done. We can open specific issues to deal with them. 	281374349
+94	6	user2	1487453850	1487453850	Core functionality is done now. Todo: Add proper instructions for enrollment. 	280876902
+77	6	user2	1487358801	1487358801	"A better approach would be to first test the api (with some python code), and see if it works here (since its mentioned availability is only west-US), and then code up the application. "	280740035
+75	6	user2	1487358512	1487358512	"The audio file format must meet the following requirements.  Container 	WAV  Encoding 	PCM  Rate 	16K  Sample Format 	16 bit  Channels 	Mono"	280738801
+78	6	user2	1487364036	1487364036	API works. Tested with Python scripts [here](https://github.com/Microsoft/Cognitive-SpeakerRecognition-Python). 	280760555
+12	7	user3	1486656922	1486656922	Basic UI is in place.	278690016
+59	8	user1	1487284944	1487284944	Done	280486982
+37	12	user3	1486674400	1486674400	Everyone's got their own branch now! :)	278773703
+4	14	user3	1486604871	1486604871	will do that tonight most probably.	278522024
+7	14	user1	1486607008	1486607008	![untitled diagram](https://cloud.githubusercontent.com/assets/4381690/22766657/c79ed422-ee44-11e6-920e-ff6dee594886.png)    Here's a basic program flow for the Android app. Let me know what you guys think	278527903
+6	14	user3	1486605222	1486605222	sure	278523100
+5	14	user1	1486605110	1486605110	Yeah we need to figure this out before we move forward. I'm drafting one right now and will keep you guys posted here	278522782
+11	15	user3	1486656905	1486656905	Done.	278689918
+13	16	user1	1486657019	1486657019	Have you done a pull request to merge your code to the master branch?	278690548
+19	16	user2	1486658026	1486658026	The gradle system messes things up pretty quickly. Even if I open the project to view in master or other branch it modifies some files :sweat_smile: Have to be careful. 	278695762
+14	16	user3	1486657265	1486657265	Yeah.  I have mentioned you and sid in the comment for the pull request.	278691772
+20	16	user2	1486658278	1486658278	"So if I want to modify KG's codem, I would create my branch, and then merge his branch with mine, and then proceed to commit changes there, right?"	278697045
+21	16	user2	1486658872	1486658872	@DevArenaCN How do I work on KG's code in my branch?	278700203
+17	16	user1	1486657684	1486657684	@thegreyd Yes you need to switch to his branch to check the code	278693944
+18	16	user2	1486657702	1486657702	cool.	278694036
+22	16	user1	1486659128	1486659128	"If things works fine, I'll confirm the pull request, which will makes KG's code to the master branch. Then on your local machine, what you need to do is either switch to master branch, run a  `git pull` command, then switch back to your branch, and do a `git merge master` command; Or you can do just on your own branch (locally), run a `git merge origin master` command, it will just merge the latest code from the master branch with your branch (locally). After that what I normally do is checking all the functionalities, if all goes well, commit all the files and push it to my branch on github"	278701516
+23	16	user2	1486659589	1486659589	"Or if I switch to KG's branch and then create a new branch, that would have the base of KG's code ? And then modify it. Basically I can have 2 branches, 1 of KG's code and one with master. Would that work?"	278703873
+10	16	user3	1486656885	1486656885	done.	278689812
+16	16	user2	1486657643	1486657643	I only see one activity which is activiy_hello_world.xml. Do i have to switch to Kaustubh branch?  	278693711
+24	16	user1	1486659694	1486659694	"Now if you do a `git pull` from the master branch, you should have the latest code"	278704380
+25	16	user1	1486660762	1486660762	"@thegreyd The best way would be switch to master branch, do `git pull`, and then switch back to your branch and do `git merge master`"	278709753
+15	16	user1	1486657358	1486657358	"Saw it. Looks good, great work. I would say merge the code first then close the issue next time."	278692231
+8	16	user1	1486607913	1486607913	Repeat...close this issue	278530181
+40	17	user2	1487096252	1487096252	There is a working prototype now of local fingerprint authentication. I'll push and create a pull request soon.	279789769
+109	17	user1	1487612537	1487612537	Is this finished? @thegreyd Let me know if I can close this issue	281141336
+41	17	user2	1487096290	1487096290	Guide used was this. Posting here for reference.  http://www.androidauthority.com/how-to-add-fingerprint-authentication-to-your-android-app-747304/	279789947
+38	18	user1	1486950695	1486950695	Done with the server side.	279276182
+26	18	user2	1486663616	1486663616	@DevArenaCN So I am not entirely sure how this would be implemented. In what form will the data from the Android app be sent to the server? Will it be an api call? Will the server return some token? I	278723548
+27	18	user2	1486663736	1486663736	This is something I was reading. Authentication using http request: https://stackoverflow.com/questions/1968416/how-to-do-http-authentication-in-android	278724131
+34	18	user1	1486666290	1486666290	It will be something like this: http://lucatironi.net/tutorial/2012/10/15/ruby_rails_android_app_authentication_devise_tutorial_part_one/	278736227
+48	18	user2	1487146880	1487146880	"Registration now works in the Android app. Some refinements needed, will open relevant issues."	279945843
+28	18	user1	1486663780	1486663780	"Yes. It will be some kind of form that you post to the server ( which I will give you the documentation once I'm finished) , you will get a JSON back so that you can parse and do things accordingly in the app. "	278724325
+31	21	user3	1486665405	1486665639	I have created a new project for the whole org. It resolves the cross-communication issue :)	278732043
+30	21	user3	1486665238	1486665238	I havent checked it out yet but the studio could mess things up while running and building the apk for the app.    Plus for the common issues stuff: we can create a project for the SETeamH organisation as a whole which will give access to all the issues across all repos contained in an org.	278731230
+29	21	user1	1486665112	1486665112	My thought would be putting them in different ones would create issues with the GutHub issue section where we need to cross communication with different repos. Is there some kind of issue with your project? I 	278730563
+32	21	user1	1486665830	1486665830	Alright. I'm moving the files before class. 	278734160
+35	21	user2	1486667987	1486667987	We have our server hosted in our ideas repo. We could continue to use that maybe?	278743926
+36	21	user1	1486672829	1486672829	It has been moved to the new repo. Closing this issue	278766695
+33	21	user3	1486665875	1486665875	Sure. Thanks! :)  	278734346
+81	23	user1	1487373721	1487373721	Noted. Great work @KaustubhG @thegreyd 	280793846
+80	23	user3	1487373670	1487373891	Me and sid were working together this afternoon on the voice-dna stuff.  Voice Recording is now working inside the app.   Sid is working on making API requests for voice-dna enrollment and verification.    We have decided the app flow for Voice as follows:    HomePage ---> Login ----> Login via Voice-DNA    ```  if(user isn't registered by voice){   show the user enrollment screen (the screen where we record 3 voice samples and enroll the user)  }    else{   show the user verification screen. (the screen where we only record 1 voice sample for verification)  }  ```	280793697
+106	23	user3	1487610777	1487610777	Done.	281134810
+60	23	user1	1487284979	1487284979	Found another library that we could use. Cost a bit but hopefully we can use this.  https://siv.voiceprintportal.com/apidocs.jsp	280487125
+61	23	user1	1487285095	1487285095	https://github.com/voiceittech/VoiceIt-Android-Wrapper-BETA   Api for Android can be found here. 	280487628
+62	24	user1	1487298927	1487298927	"Hey guys, the API calls for magic link and verify if user's auth_token is valid has been created and tested, documentations can be found in [here](https://github.com/SE17GroupH/ZapServer/blob/master/README.md) Let me know if you guys have any problems using these."	280532295
+53	24	user2	1487260763	1487260763	@DevArenaCN Is it a clickable link ? We'll need to open that link in the app right?	280371915
+52	24	user1	1487253607	1487253607	"Quick update: email can be successfully sent out along with the auth_token, now is just how we pass that back to the app, and do the authorization call to the server."	280337279
+51	24	user3	1487253415	1487253415	Sure	280336469
+50	24	user1	1487209635	1487209635	"@KaustubhG Great work! I'm almost finished with the emailing part, probably gonna finish the api calls before tomorrow's lecture. Can we still meet up 30 min before to have a quick meeting? I need some pointers on that url call. @thegreyd "	280203838
+49	24	user3	1487206573	1487206573	I have got the linking of a url to our app done.	280194131
+39	24	user3	1487085907	1487085907	Hey guys  still stuck on the API calls. :(  I guess I could change tracks and get the authentication thing done now that the server up...	279737967
+148	24	user2	1488998604	1488998604	Done	285129752
+42	24	user2	1487105231	1487105231	"I am able to use the Zap server api to login, it returns a json file with auth token. Have a working version, some more work needed. "	279830801
+101	24	user1	1487535060	1487535060	"Still it's gonna be an API call to the server, there no way around that, and honestly I don't think we should either. "	280944968
+121	24	user1	1487711825	1487711825	Link format for register confirmation: http://zapserver.herokuapp.com/users/confirmation?confirmation_token=vxgUvAm1SG5bQWyzQDfF	281483386
+113	24	user3	1487624022	1487624022	@thegreyd  could you mail me the SubKey.java file?	281178965
+98	24	user2	1487524494	1487524494	"@DevArenaCN I'm thinking of removing some login and logout api calls to Zapserver, because they seem unnecessary. This way the communication to server will happen in one way, through the email password login. If that's successfully validated through the s"	280933055
+99	24	user1	1487525008	1487525008	"Yes I guess that would be fine for demo purposes, but in the real case it would need to talk with the server for authentication. One thing you could do is after login with username and password, store the auth-token, and just do the verification of the token instead for the other two login method. "	280933581
+100	24	user2	1487528403	1487528403	Yes I am storing the username password and auth token. How do you verify the auth token? 	280937225
+45	26	user2	1487136041	1487136041	"If the response code is other than error, like 200, I could possibly get the json file. But we could decide what way would be the best."	279919736
+43	26	user1	1487109379	1487109379	"`$ curl -k -v -H ""Content-Type:application/json"" -X POST -d '{""session"":{""password"":""12345677"",""email"":""example@zapserver.com""}}' https://zapserver.herokuapp.com/api/sessions/`  `Note: Unnecessary use of -X or --request, POST is already inferred.`  `*   Trying 184.73.212.255...`  `* TCP_NODELAY set`  `* Connected to zapserver.herokuapp.com (184.73.212.255) port 443 (#0)`  `* TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256`  `* Server certificate: *.herokuapp.com`  `* Server certificate: DigiCert SHA2 High Assurance Server CA`  `* Server certificate: DigiCert High Assurance EV Root CA`  `> POST /api/sessions/ HTTP/1.1`  `> Host: zapserver.herokuapp.com`  `> User-Agent: curl/7.51.0`  `> Accept: */*`  `> Content-Type:application/json`  `> Content-Length: 67`  `> `  `* upload completely sent off: 67 out of 67 bytes`  `< HTTP/1.1 422 Unprocessable Entity`  `< Server: Cowboy`  `< Date: Tue, 14 Feb 2017 21:52:13 GMT`  `< Connection: keep-alive`  `< X-Frame-Options: SAMEORIGIN`  `< X-Xss-Protection: 1; mode=block`  `< X-Content-Type-Options: nosniff`  `< Content-Type: application/json; charset=utf-8`  `< Cache-Control: no-cache`  `< X-Request-Id: ec10c234-6305-4daa-aef6-d87ac70ad64a`  `< X-Runtime: 0.807859`  `< Transfer-Encoding: chunked`  `< Via: 1.1 vegur`  `< `  `* Curl_http_done: called premature == 0`  `* Connection #0 to host zapserver.herokuapp.com left intact`  `{""errors"":""Invalid email or password""}`      I did a cURL and this is the JSON that should be returned (Last line)"	279848750
+46	26	user2	1487137107	1487137107	"Registration works now. But I don't get any json in return, only codes.  - Email already in use - 422  - invalid email/short password - 422  - Correct email and password - 201"	279921809
+47	26	user2	1487146733	1487146733	"The standard library functions for this are buggy/unreliable. Found a really nice library OkHttp, switching to that for API calls. Much cleaner interface and getting the correct json response now. Issue resolved."	279945411
+44	26	user2	1487135883	1487136787	"On wrong credentials I am getting a HTTP error code, which when the urlconnection object in the app receives it kinda shuts off on its own, and doesn't show any returned message. This is fine, based on the return code we could segregate.     These are the codes that are received  - On correct username, wrong password: 422  - On wrong username: 500  - On correct username and password: 200"	279919447
+69	27	user1	1487341737	1487341737	@thegreyd I have clear the whole database so you have to re-sign up for testing. Sorry about the inconvenience.	280664146
+70	27	user2	1487341988	1487341988	"@DevArenaCN Not a problem. The only thing left on the server side I can think of, is resetting password. Do you think we should do it, or leave it for later."	280665288
+71	27	user1	1487342127	1487342127	"Resetting the password I believe has already in the server side, but I haven't release the API for it. We can finish the major parts and then work on those small details."	280665900
+72	27	user2	1487342252	1487342252	Oh that's great.	280666498
+54	27	user2	1487261529	1487261539	"I tested a few things:  - When you register you get an auth token, so we can login directly.  - If we don't we can redirect to login page. User can login immediately after registration"	280376086
+58	27	user2	1487281449	1487341204	"After discussion this is what we're doing:    - [x] No choosing of authentication mode. By default user can use fingerprint, magic link, voice/face/  - [x] In magic link, first verify the email address  - [ ] In fingerprint, first store the username and password. Then afterwards, when the username+fingerprint is authenticated, send the stored password  - [x] Do some validation on password, at least 6 chars. Username contains ""@"".  - [x] After registration redirect to login page."	280470952
+107	27	user1	1487612388	1487612388	I think the program flow is done. Closing this issue	281140831
+68	27	user1	1487341222	1487341222	email confirmation has been implemented. 	280661896
+65	28	user2	1487305436	1487305436	Saving username and password as well. Done. 	280547918
+64	29	user2	1487305207	1487305207	Done.	280547408
+55	30	user2	1487268445	1487268445	Done.	280410414
+56	31	user2	1487274289	1487274289	Done.	280437529
+97	33	user2	1487524066	1487524066	Not necessary right now. 	280932564
+85	34	user2	1487446176	1487446176	Once a user has logged in with password he will have his email registered so no need of taking the email. 	280869034
+67	35	user1	1487341191	1487341191	Done!	280661760
+110	36	user1	1487612902	1487612902	Fixed. Closing this issue now	281142631
+103	36	user2	1487575310	1487575310	"Functionality implemented, but encountering error. See https://github.com/SE17GroupH/ZapServer/issues/14"	281005349
+102	37	user2	1487575233	1487575233	Disable the buttons when pressing them doesn't lead to anything. Currently in the app a error toast notification is displayed which is not ideal.	281005144
+143	37	user3	1488925477	1488925477	UI looks pretty decent now! ?? 	284880126
+126	37	user2	1487915713	1487915713	- https://codelabs.developers.google.com/codelabs/material-design-style/index.html?index=..%2F..%2Findex#0	282211013
+151	44	user2	1489025952	1489025952	Done!	285234461
+150	44	user2	1489016113	1489016113	"Desired behavior: - when back press at homepage, exit the app -  when you press back button at login screen, it should take you to homepage."	285205527
+84	45	user2	1487442718	1487442718	The enrollment api calls are now implemented and tested to be working. This is ideal case testing where i record the correct phrase with clear voice. Error checking and displaying that error is not implemented yet. I'm making some final changes to push this. Will discuss subsequent problems in relevant issues.	280865384
+83	45	user2	1487440623	1487440840	Good news @DevArenaCN @KaustubhG The verification api call is implemented and tested to be working. We are able to record audio and send using FileInputStream. I am getting expected results.	280862988
+92	46	user2	1487447622	1487447622	"So what happens is -> user receives email confirmation. User clicks on email, then on the backend you would confirm the email, then make an api call to Microsoft, receive the profile id and store it with the respective user. Then when that user does login, you retrieve from the database, and return it with the login api call response (as an extra parameter). I receive the profile id and store it in the app."	280870440
+93	46	user2	1487447735	1487447735	This does sounds a little complicated :sweat_smile: and maybe unnecessary. But the point is to separate the new profile creation for voice api from the app so that we don't run out of profiles. 	280870542
+86	46	user1	1487446574	1487446574	"It's fairly easy to do I guess, I can add another API call to it, once the user is registered with the voice on Microsoft side, you can do an API call to our server and update the voice id on the server side. Is that something that's gonna work? If so I'll start now, hopefully it will be done before tomorrow's meet up. "	280869404
+95	46	user1	1487456409	1487456409	"Ah, gotcha, I'll see what I can do from the server side, can't make any promise though. Could you give me some details on how to make the API call with Microsoft side? Thanks!"	280879492
+96	46	user2	1487457469	1487457469	Yeah. Here is the create profile implementation details: https://westus.dev.cognitive.microsoft.com/docs/services/563309b6778daf02acc0a508/operations/563309b7778daf06340c9652	280880531
+87	46	user2	1487446885	1487446885	"When an email is registered, we can create the voice profile id automatically on the server, and then return it with the login call response(with auth token and all). The voice create profile api call is fairly simple. What do you think?"	280869702
+108	46	user1	1487612455	1487612455	I'm moving this issue to the server side. Closing on this end	281141048
+88	46	user2	1487446989	1487446989	That way he wouldn't have an extra api call.	280869809
+89	46	user1	1487447096	1487447096	"So the id is something we generate, not generated on Microsoft side? If so, there's already an id column in the database right now. I think we can just use that if that's the case. "	280869906
+90	46	user2	1487447180	1487447180	The id is generated at microsoft's side and returned as a response to an api call. 	280870005
+91	46	user1	1487447434	1487447434	"Since it's generated on Microsoft side and it's gonna return to the app itself, I don't see how it's gonna passed to the server without the app sending a call to the server side. Maybe I'm getting this wrong, but could you go into more detail about this? Thanks! "	280870260
+124	47	user2	1487881287	1487881287	Done. 	282109372
+105	47	user3	1487610739	1487610739	Will look into this one	281134664
+119	48	user2	1487690343	1487690343	Not exactly. There's one phrase that is displayed on the voice register screen. We can display more.	281373887
+145	48	user3	1488927707	1488927707	minimal requirements are met.	284889192
+118	48	user1	1487688517	1487688517	I think this one is done right? @thegreyd 	281364901
+104	50	user3	1487610722	1487610722	I'll take up this one today  	281134584
+170	50	user2	1492114509	1492114509	Future improvement	294009984
+115	50	user3	1487646995	1487646995	crash for denying permissions due to voice auth is fixed.	281234160
+161	50	user2	1489600119	1489600119	Still unresolved. 	286824507
+155	50	user1	1489426963	1489426963	Is there an update on this?	286185782
+142	59	user3	1488925415	1488925415	fixed.	284879833
+153	60	user2	1489032038	1489032038	fixed. The final solution would be to create and store the profile id on server per user.	285248314
+128	61	user2	1488646659	1488655495	"So I was playing with gradle and JUnit. Thankfully lot of things are set up in Android Studio, to help test. JUnit and Espresso are included as dependencies. There are 2 types of tests - one which is not android specific - test, and one which requires android specific functions - androidTest.  - **test** , which are **unit tests** written with JUnit -  [go here in this folder](https://github.com/SE17GroupH/Zap/blob/master/app/src/test/java/teamh/zapapp/ExampleUnitTest.java).  - **androidTest**, which are **instrumentation tests** written with Espresso or other - [go here](https://github.com/SE17GroupH/Zap/tree/master/app/src/androidTest/java/teamh/zapapp)    References:  - https://developer.android.com/studio/test/index.html"	284164570
+141	61	user2	1488826312	1488924433	- UI testing with Espresso: https://www.youtube.com/watch?v=W8LJjfkTKik&list=PLWz5rJ2EKKc-6HWg_jyP0U1zrVLHn65b2  - code snippet used: https://qathread.blogspot.com/2014/09/discovering-espresso-for-android-how-to.html  - okhttp mockwebserver: https://githu	284493413
+144	61	user3	1488925581	1488925581	Me and @thegreyd  wrote some tests today.  We wrote unit-tests for checking correctness of functions  and end-to-end tests for checking end-to-end system functionality. 	284880582
+146	61	user1	1488936909	1488936909	Great work guys! I'm seeing a lot of commits today. For server side there're test cases in place already so I think all I need to do is setting up TravisCI for it. I'll start on Thursday.	284918247
+125	61	user2	1487914302	1487915873	Testing methods and frameworks:  - JUnit  - Robolectric (unit and intergration tests)  - Espresso (functional tests)  - Mockito  - https://codelabs.developers.google.com/codelabs/android-testing/index.html?index=..%2F..%2Findex#0  	282208239
+149	61	user2	1488998821	1488998821	Started. For remaining open specific issues.	285130726
+127	62	user2	1488380538	1488380538	done	283363870
+139	65	user2	1488733540	1488733540	"So our first build is passing. Took a long time to get it right. Basically had to disable instrumentation tests on travis (requires installing and running android device manager, which is a pain). Next to do is to securely get api keys to the build which are now stored in SubKey.java. In future the api keys will be stored in environment variables, and passed encrypted to travis."	284243699
+136	65	user1	1488657424	1488657424	"Ah, gotcha. I'll do that, almost home, don't have access to a laptop and can't seem to be done on my phone. "	284176713
+134	65	user2	1488657348	1488657348	@DevArenaCN I think in collaborators there are 2 kinds of access - write and admin. I have write access but for this I require admin access.	284176639
+137	65	user3	1488657513	1488657513	I'll get started on travis CI by tonight ?? 	284176800
+131	65	user2	1488657106	1488657106	"@DevArenaCN I require admin rights for the organization or this repo, to enable the integration. Can you grant me that"	284176389
+138	65	user1	1488677166	1488677166	Done. Sorry about the delay	284197831
+130	65	user1	1488656769	1488656769	I have authorized it a few mins ago. I'm gonna try to do that for the server side as well. 	284176054
+129	65	user2	1488656685	1488656685	@DevArenaCN @KaustubhG You would have received a mail to grant authorization to travisCI for the organization repo. That's needed to integrate with travis. 	284175987
+135	65	user2	1488657385	1488657385	@KaustubhG Hmm maybe only the person with admin rights to the org repo gets it.	284176681
+133	65	user3	1488657287	1488657287	@thegreyd  I didn't receive a mail for granting authorization to travis CI...  	284176569
+132	65	user1	1488657157	1488657157	I thought I already did. I'll double check in a few mins. 	284176445
+140	69	user2	1488745114	1488745114	Donezo	284259094
+147	71	user2	1488940662	1488940662	Automatic release deployment is tested and working. The process of release-> tag commit in local branch. pull request to master. travis detects tag and deploys from master branch.	284928750
+169	79	user2	1492114490	1492114490	Future improvement 	294009913
+157	79	user1	1489427036	1489427036	"I'm going to get the icon and logo ready before Thursday, after the midterm"	286186178
+152	82	user2	1489029573	1489029610	"At login screen button disabling is a bad idea. Other places buttons removed, merged into one."	285243198
+158	84	user1	1489427053	1489427053	"I believe this one is done, right?"	286186283
+159	84	user2	1489600023	1489600023	"The structure is there, but Not fully implemented."	286823928
+168	84	user2	1492114472	1492114472	Future improvement	294009850
+160	85	user2	1489600091	1489600091	Not done. Looking into it. 	286824346
+156	85	user1	1489426977	1489426977	Any updates?	286185857
+166	85	user2	1492114420	1492114420	Future improvement	294009649
+154	86	user2	1489381063	1489381063	Looks good	286015653
+165	87	user3	1490132003	1490132003	"Sure, w'll work on that"	288225941
+164	87	user1	1490131190	1490131190	"@thegreyd I'll add the Microsoft cognitiveId in the registration form and I'll write another API for getting that info, that will be done before Thursday. In the meantime, if @thegreyd and @KaustubhG could look into implementing some timing module inside "	288222340
+167	87	user2	1492114453	1492114453	Done	294009784
+162	87	user2	1490123856	1490123883	"Yes, Let's put a signup sheet for that. When are you guys free next week. We should discuss the work needed for user eval, server and app.     For the app i think, we need to prepare instructions to tell the user what to do. App icon and logo would be good.    For the server side, integrating microsoft api call for profile creation at account creation. This will make the voice login process very convenient for the end user.     Apart from these I don't think we need more. We could implement timing in the app, that would depend on how easy it is, and what kind of statistics we record."	288189066
+163	87	user3	1490127370	1490127370	We can start discussing over the weekend via comments and meetup next week maybe Tuesday.  How about that?	288204584
